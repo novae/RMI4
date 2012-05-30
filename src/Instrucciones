@@ -1,0 +1,8 @@
+cd C:\Users\TEC\Documents\NetBeansProjects\R4\src
+javac *.java
+start rmiregistry
+rmic ObjetoIdentificador
+java ServidorIdentificacion
+
+cd C:\Users\TEC\Documents\NetBeansProjects\R4\src
+java ClienteID
